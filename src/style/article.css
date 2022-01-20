@@ -1,0 +1,58 @@
+.main{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+.main .content{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.main .content .tittle{
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.main .content .img{
+    width: 100%;
+    margin-top: 20px;
+}
+.main .content .desc{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main .content .art{
+    font-size: 21px;
+    text-align: left;
+    line-height: 30px;
+}
+.main .content .date{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 15px;
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.more .display{
+    width: 20vw;
+}
+
+.more-from .head{
+    text-align: left;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 7%;
+}
+.more-from hr{
+    width: 20%;
+    border-top: rgb(202, 74, 74) solid 3px;
+}
