@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 40px;
+    justify-content: space-between;
 }
 .common .content .part-1{
     display: flex;
@@ -13,9 +14,9 @@
     width: 60%;
 }
 .common .content .part-2{
-    display: none;
+    display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 25%;
 }
 .common .content .part-1 img{
     width: 40%;
@@ -26,5 +27,26 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 30px;
+}
+.common .content .part-2 .head{
+    text-align: left;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.common .content .part-2 hr{
+    width: 10%;
+    border-top: rgb(202, 74, 74) solid 3px;
+}
+.common .content .part-2 .parts{
+    margin-bottom: 30px;
+}
+.ad{
+    border: solid 2px black;
+    width: 17vw;
+    height: 60vh;
+    margin: 30% 0px;
+    margin-top: 20px;
+    padding-top: 20vh;
 }
 

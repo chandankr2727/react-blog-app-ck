@@ -8,6 +8,7 @@ function Home() {
     const { homePage } = useContext(BlogContext)
     const { latest } = useContext(BlogContext)
     const { latestArticle } = useContext(BlogContext)
+    const { top } = useContext(BlogContext)
     return (
         <div className='home'>
             <div className='home-display'>
@@ -64,7 +65,7 @@ function Home() {
                             latestArticle.map((a) => {
                                 return (
                                     <div key={a.id}>
-                                        <Link to={{ pathname: '/article/' + a.category + '/' + a.id + '/' + a.tittle.replace(/\s+/g, '-'), state: { ht: homePage } }}>
+                                        <Link to={{ pathname: '/article/' + a.category + '/' + a.id + '/' + a.tittle.replace(/\s+/g, '-') }}>
 
                                             <div className='display'>
                                                 <img src={a.image} alt='' />
@@ -86,26 +87,28 @@ function Home() {
                     </div>
                     <div className='content-2'>
                         <div className='ad'>Advertisement</div>
-                        <div className='top-5'>
-                            {
-                                homePage.map((a) => {
-                                    return (
-                                        <div key={a.id}>
-                                            <Link to={{ pathname: '/article/' + a.id + '/' + a.tittle, state: { ht: homePage } }}>
+                        <div className='top'>
+                            <div className='top-4'>
+                                <div className='head'>Top Post <br /> <hr /></div>
+                                {
+                                    top.map((a) => {
+                                        return (
+                                            <div key={a.id}>
+                                                <Link to={{ pathname: '/article/' + a.category + '/' + a.id + '/' + a.tittle.replace(/\s+/g, '-') }}>
 
-                                                <div className='display'>
-                                                    <img src={a.image} alt='' />
-                                                    <div className='desc'>
-                                                        <h2>{a.tittle}</h2>
-                                                        {a.description}<br />
-                                                        {a.category}/{a.date}
+                                                    <div className='display'>
+                                                        <img src={a.image} alt='' />
+                                                        <div className='desc'>
+                                                            <h2>{a.tittle}</h2>
+                                                            {a.category} / {a.date}
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    )
-                                })
-                            }
+                                                </Link>
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -84,8 +84,51 @@ const WorldContextProvider =(props)=>{
             article:"Australia's meteorological service said a 'large eruption' took place at the Hunga Tonga-Hunga Ha'apai volcano on Monday, but no tsunami warnings have been issued. Saturday's eruption was likely the biggest recorded anywhere on the planet in more than 30 years, according to experts. Dramatic images from space captured the eruption in real time, as a huge plume of ash, gas and steam was spewed up to 20 kilometers (12.4 miles) into the atmosphere -- and tsunami waves were sent crashing across the Pacific. On social media, footage showed people fleeing as waves inundated Tonga's capital, Nuku'alofa, and the afternoon sky turned pitch black due to the heavy ash cloud. Tsunami waves were also recorded thousands of miles away along the United States West Coast, in Peru, New Zealand and Japan. In Peru, at least two people died after being swept up by high waves. No mass casualties have yet been reported, but aid organizations are concerned about contaminated air and access to clean water for people in Tonga's outlying islands. With communications down, Australia and New Zealand sent flights to survey the damage. Tonga is a Polynesian country of more than 170 South Pacific islands and home to about 100,000 people. It's a remote archipelago that lies about 800 kilometers (500 miles) east of Fiji and 2,380 kilometers (1,500 miles) from New Zealand. The Hunga-Tonga-Hunga-Ha'apai volcano, about 30 kilometers (20 miles) southeast of Tonga's Fonuafo'ou island, sits underwater between two small islands at about 2,000 meters (6,500 feet) high from the sea floor, with about 100 meters (328 feet) visible above sea level."
         }
     ])
+
+    const [top] = useState([
+        {
+            id:"14",
+            tittle:"North Korea conducts fourth missile test this month",
+            image:"/images/world/Nkorea.jpg",
+            date:"January 16,2022",
+            author:"By Dennis Romero",
+            category:"World",
+            description:"North Korea test fired as many as two rounds of short-range ballistic missiles Monday, South Korean officials said.",
+            article:"The missiles were fired east from the Soonan airport area of Pyongyang, the capital, according to South Korea’s Joint Chiefs of Staff.  The launch was also reported by officials in Japan. Defense Minister Nobuo Kishi said at an impromptu briefing the missiles were estimated to have flown roughly 300 kilometers, or about 186 miles, off North Korea’s eastern coast. In a statement, the U.S. Indo-Pacific Command said that while the launch did not pose an immediate threat to U.S. personnel or territory, or to its allies, it highlighted the 'destabilizing impact' of North Korea’s weapons programs. The launch follows tests on Jan. 5, 11 and 14.  Experts believe the activity is reprisal for new sanctions the Biden administration imposed last week over the North’s continued test launches. Earlier in the week, North Korean leader Kim Jong Un called for strengthening the country’s strategic military forces after observing the test of what state media said was a hypersonic missile. It was the first time since March 2020 that he had officially attended a missile test."
+        }, 
+        {
+            id:"17",
+            tittle:"U.S. announces fresh $308 million in humanitarian aid for struggling Afghans",
+            image:"/images/world/afghan.jpg",
+            date:"January 12, 2022",
+            author:"By Saphora Smith",
+            category:"World",
+            description:"The United States announced Tuesday that it was giving more than $308 million in humanitarian aid to the Afghan people in an effort to support Afghans facing economic collapse under the new Taliban government.",
+            article:"The White House said the administration will also send one million additional Covid-19 vaccine doses to the country, which is grappling not just with the global pandemic but with widespread hunger in the wake of the militant group's takeover and the U.S. exit. The United Nations and aid groups have repeatedly warned of a pending humanitarian catastrophe in the country of 38 million people. On Tuesday they appealed for a record $4.4 billion in aid as an 'essential stop gap' to ease the suffering. Washington and its Western allies are attempting to help the Afghan people while bypassing their Taliban rulers. Countries that have refused to recognize the Taliban government have suspended foreign aid on which the state relied and frozen billions of dollars of Afghan assets abroad, mostly in the United States. The new assistance will flow through independent humanitarian organizations and will help provide aid such as essential health care, emergency food aid, water and sanitation in response to the growing humanitarian needs of the population, National Security Council spokesperson Emily Horne said in a statement about the aid contribution. The new commitment is on top of some $474 million the U.S. has already contributed to Afghanistan and Afghan refugees in the region since October 2021 and the additional Covid vaccine doses brings the total contributed to Afghans to 4.3 million, Horne said. "
+        },
+        {
+            id:"15",
+            tittle:"Ukraine hit by cyberattack, Russia moves more troops after talks hit 'dead end'",
+            image:"/images/world/ukraine.jpg",
+            date:"January 14, 2022",
+            author:"By Reuters, Ken Dilanian and Dan De Luce",
+            category:"World",
+            description:"Ukraine was hit by a massive cyberattack on Friday warning its citizens to “expect the worst,” and Russia, which has massed more than 100,000 troops on its neighbor’s frontier, released television pictures of more forces deploying in a drill.",
+            article:"The developments came after no breakthrough was reached at meetings between Russia and Western states, which fear Moscow could launch a new attack on the country it invaded in 2014. 'The drumbeat of war is sounding loud,' said a senior U.S. diplomat.Russia denies plans to attack Ukraine but says it could take unspecified action unless demands are met, including a promise by the NATO alliance never to admit Kyiv. Ukrainian authorities were investigating the huge cyberattack Friday, which hit government bodies including the ministry of foreign affairs, cabinet of ministers, and security and defense council. 'Ukrainian! All your personal data was uploaded to the public network. All data on the computer is destroyed, it is impossible to restore it,' said a message visible on hacked government websites, written in Ukrainian, Russian and Polish.'All information about you has become public, be afraid and expect the worst. This is for your past, present and future.' Ukraine’s foreign ministry spokesperson told Reuters it was too early to say who could be behind the attack but said Russia had been behind similar strikes in the past."
+        },
+        {   
+            id:"12",
+            tittle:"Your Monday Briefing: Djokovic Leaves Australia",
+            image:"/images/world/dj.jpg",
+            date:"January 16, 2022",
+            author:"By Amelia Nierenberg",
+            category:"World",
+            description:"Good morning. We’re covering Djokovic’s forced departure from Australia, ongoing tensions between Russia and the West and the Cambodian government’s tightening of internet surveillance.",
+            article:"<h3>Djokovic loses his Australia case</h3> <br/> The unvaccinated Serbian tennis superstar left Australia on Sunday night after a court ruled against his bid to stay, costing him a chance at a 10th Australian Open title and a record-breaking 21st Grand Slam title. <br/>In a unanimous decision, the court ruled that Australia’s immigration minister was within his rights to cancel Novak Djokovic’s visa for a second time on the basis that the player could pose a risk to public health and order. (Here’s an explainer on the case.)<br/>Djokovic could be barred from entering Australia for the next three years under its laws regarding visa cancellations. He could face further international travel challenges if he does not get vaccinated.<br/>Tennis: The Australian Open will begin on Monday with a vacuum at the top — Djokovic has won its last three men’s singles championships.<br/>Serbia: President Aleksandar Vucic blasted Australia’s legal process as “Orwellian” and said Djokovic would be welcomed home.<br/>Australia: Some legal experts called for changes to the immigration minister’s “godlike” powers. Djokovic lost to public outcry and “a government determined to make him a symbol of unvaccinated celebrity entitlement,” our Sydney bureau chief writes in an analysis."
+        }
+    ])
 return(
-    <WorldContext.Provider value={{world}} >
+    <WorldContext.Provider value={{world,top}} >
         {props.children}
     </WorldContext.Provider>
 )

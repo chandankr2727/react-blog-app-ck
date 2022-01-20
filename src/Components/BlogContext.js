@@ -142,9 +142,73 @@ const BlogContextProvider = (props) => {
 
         }
     ])
+    const [top] = useState([
+        {
+            id: "14",
+            tittle: "North Korea conducts fourth missile test this month",
+            image: "/images/world/Nkorea.jpg",
+            date: "January 16,2022",
+            author: "By Dennis Romero",
+            category: "World",
+            description: "North Korea test fired as many as two rounds of short-range ballistic missiles Monday, South Korean officials said.",
+            article: "The missiles were fired east from the Soonan airport area of Pyongyang, the capital, according to South Korea’s Joint Chiefs of Staff.  The launch was also reported by officials in Japan. Defense Minister Nobuo Kishi said at an impromptu briefing the missiles were estimated to have flown roughly 300 kilometers, or about 186 miles, off North Korea’s eastern coast. In a statement, the U.S. Indo-Pacific Command said that while the launch did not pose an immediate threat to U.S. personnel or territory, or to its allies, it highlighted the 'destabilizing impact' of North Korea’s weapons programs. The launch follows tests on Jan. 5, 11 and 14.  Experts believe the activity is reprisal for new sanctions the Biden administration imposed last week over the North’s continued test launches. Earlier in the week, North Korean leader Kim Jong Un called for strengthening the country’s strategic military forces after observing the test of what state media said was a hypersonic missile. It was the first time since March 2020 that he had officially attended a missile test."
+        },
+        {
+            id: "22",
+            tittle: "Walmart is quietly preparing to enter the metaverse",
+            image: "/images/business/walmart.jpg",
+            date: "January 16, 2022",
+            author: "By Lauren Thomas",
+            category: "Business",
+            description: "Walmart appears to be venturing into the metaverse with plans to create its own cryptocurrency and collection of NFTs. The big-box retailer filed several new trademarks late last month that indicate its intent to make and sell virtual goods.",
+            article: "Walmart appears to be venturing into the metaverse with plans to create its own cryptocurrency and collection of nonfungible tokens, or NFTs. The big-box retailer filed several new trademarks late last month that indicate its intent to make and sell virtual goods, including electronics, home decorations, toys, sporting goods and personal care products. In a separate filing, the company said it would offer users a virtual currency, as well as NFTs. According to the U.S. Patent and Trademark Office, Walmart filed the applications on Dec. 30. In total, seven separate applications have been submitted. In a statement, Walmart said it is 'continuously exploring how emerging technologies may shape future shopping experiences.' It declined to comment on the specific trademark filings. 'We are testing new ideas all the time,' the company said. 'Some ideas become products or services that make it to customers. And some we test, iterate, and learn from.' 'They’re super intense,' said Josh Gerben, a trademark attorney. 'There’s a lot of language in these, which shows that there’s a lot of planning going on behind the scenes about how they’re going to address cryptocurrency, how they’re going to address the metaverse and the virtual world that appears to be coming or that’s already here.' Gerben said that ever since Facebook announced it was changing its company name to Meta, signaling its ambitions beyond social media, businesses have been rushing to figure out how they will fit into a virtual world. Launching NFTs allows for businesses to tokenize physical products and services to help reduce online transaction costs, it said. And for luxury brands like Gucci and Louis Vuitton, NFTs can serve as a form of authentication for tangible and more expensive goods, CB Insights noted. Gerben said that as more consumers familiarize themselves with the metaverse and items stored on the blockchain, more retailers will want to create their own ecosystem around it. According to Frank Chaparro, director at crypto information services firm The Block, many retailers are still reeling from being late to e-commerce, so they don’t want to miss out on any opportunities in the metaverse."
+
+        },
+        {
+            id: "36",
+            tittle: "Twitter calls Australian minister Mark McGowan sick for getting speech",
+            image: "/images/politics/twitter.webp",
+            date: "January 13, 2022",
+            author: "By AKSHATA KAMATH",
+            category: "Politics",
+            description: "Western Australia Premier Mark McGowan shared a Covid message, which he had an indigenous elder translate from English to Aboriginal-English. Twitter is furious with the racist, sick viral video.",
+            article: "A video of Mark McGowan is going viral where Mark talks about his Covid message and how Coronavirus is a deadly virus and can kill and harm people. His 2-minute-long video also has line-by-line translations by an indigenous elder translator, who is literally interpreting each line in 'Aboriginal English', or the language used by the specific tribe that it is addressed to.  This fourth video out of a series of videos, is particularly being seen as offensive and insulting because it shows Aboriginal people as equivalent to being children who need spoon-feeding of the 'Australian English' language. "
+
+        },
+        {
+            id: "74",
+            tittle: "Science Fiction Revisited: Ramjet Propulsion for Interstellar Space Travel",
+            image: "/images/technology/Ramjet.jpg",
+            date: "January 09, 2022",
+            author: "By VIENNA UNIVERSITY OF TECHNOLOGY",
+            category: "Technology",
+            description: "Since the 1960s, there has been speculation about a hypothetical propulsion method for interstellar space travel. Calculations at TU Wien (Vienna) show: it will remain science fiction.",
+            article: `In science fiction stories about contact with extraterrestrial civilizations, there is a problem: What kind of propulsion system could make it possible to bridge the enormous distances between the stars? It cannot be done with ordinary rockets like those used to travel to the moon or Mars. Many more or less speculative ideas about this have been put forward — one of them is the “Bussard collector” or “Ramjet propulsion.” It involves capturing protons in interstellar space and then using them for a nuclear fusion reactor. Peter Schattschneider, physicist and science fiction author, has now analyzed this concept in more detail together with his colleague Albert Jackson from the USA. The result is unfortunately disappointing for fans of interstellar travel: it cannot work the way Robert Bussard, the inventor of this propulsion system, thought it up in 1960. The analysis has now been published in the scientific journal Acta Astronautica. “The idea is definitely worth investigating,” says Prof. Peter Schattschneider. “In interstellar space, there is highly diluted gas, mainly hydrogen — about one atom per cubic centimeter. If you were to collect the hydrogen in front of the spacecraft, like in a magnetic funnel, with the help of huge magnetic fields, you could use it to run a fusion reactor and accelerate the spacecraft.” In 1960, Robert Bussard published a scientific paper about this. Nine years later, such a magnetic field was described theoretically for the first time. “Since then, the idea has not only excited science fiction fans, but has also generated a great deal of interest in the technical and scientific astronautics community,” says Peter Schattschneider. Peter Schattschneider and Albert Jackson now took a closer look at the equations, half a century later. Software developed at TU Wien as part of a research project for calculating electromagnetic fields in electron microscopy unexpectedly turned out to be extremely helpful: the physicists were able to use it to show that the basic principle of magnetic particle trapping actually works. Particles can be collected in the proposed magnetic field and guided into a fusion reactor. In this way, considerable acceleration can be achieved — up to relativistic speeds. So after half a century of hope for interstellar travel in the distant future, it is now apparent that the ramjet drive, while an interesting idea, will remain merely part of science fiction. If we want to visit our cosmic neighbors one day, we will have to come up with something else.`
+        },
+        {
+            id: "84",
+            tittle: "MDLBEAST Soundstorm Festival, Riyadh, Saudi Arabia",
+            image: "/images/travel/MDLBEAST.jpg",
+            date: "January 03, 2022",
+            author: "by Rupert Parker ",
+            category: "Travel",
+            description: "Around 700,000 attend an electronic dance music festival in Saudi Arabia, held over four days with 200 global, regional and local acts on the bill.",
+            article: `Once unthinkable, the idea of a music festival in Saudi Arabia, where hundreds of thousands of men and women dance together is now a reality. It’s taking place just outside the capital, Riyadh, in a purpose-built site in the desert. Around 700,000 are expected and because the site is so huge, it doesn’t seem crowded. Even better, as alcohol is forbidden in the Kingdom, everyone is sober and well behaved. Saudi Arabia, long closed, is now open to tourists but you still need a visa, easily purchased online, and a fast track lane at the airport makes arrival painless. Riyadh is a sprawling city with clusters of designer high rises in the downtown and financial districts. A car is essential here as the wide highways have no pavements and certainly are not designed for walking. Apart from the impressive skyscrapers, there are few conventional tourist sites. In the old town is the 150-year-old Al Masmak Fortress a vast clay and mud-brick citadel that is now a museum. Just nearby is the vast sprawling Souq Al Zal selling carpets, jewellery, clothing and Arabian daggers, with a second-hand section outside. A clue that Saudi has its eye on the tourist market is at Diriyah, on the outskirts of the city. This was the original seat of power for the Al Saud family and the country’s capital since 1745, until it was usurped by Riyadh. The ruins were designated a UNESCO World Heritage Site in 2010 and the area is undergoing painstaking restoration. When it’s finished, it will be a vast open-air museum, complete with luxury hotels, designer stores and a traditional market selling crafts and souvenirs. Another recent innovation is the inaugural edition of Saudi Arabia’s XP Music Conference. This takes place over three days and nights, before the MDLBEAST Soundstorm festival, and attracts hundreds of music industry professionals and artists from around the Gulf and beyond. Like the festival, it’s sponsored by the Saudi Government which is keen to open up to the music industry. Critics may say that it’s an attempt to conceal the Kingdom’s human rights issues, but certainly, the many forums I attend seem to echo their claim that things are on the move.  The domestic music market is growing quickly and discussions focus on music copyright issues, streaming success stories, and getting a recording contract. The Head of the Saudi Music Commission, a government body, tells me that he’s committed to building a music ecosystem so that local artists can thrive. Certainly at MDLBEAST Festival it’s astounding to see this in action. The site sprawls over a huge area, packed with food stalls and it takes a while to walk to the four main performance areas. The BIG BEAST stage is where all the main acts appear and is reputedly the world’s tallest and largest, with huge video displays. I didn’t attempt to brave the crush upfront but enjoy the music from way back.`
+        }
+    ])
+    const [first] = useState({
+        id: "14",
+        tittle: "North Korea conducts fourth missile test this month",
+        image: "/images/world/Nkorea.jpg",
+        date: "January 16,2022",
+        author: "By Dennis Romero",
+        category: "World",
+        description: "North Korea test fired as many as two rounds of short-range ballistic missiles Monday, South Korean officials said.",
+        article: "The missiles were fired east from the Soonan airport area of Pyongyang, the capital, according to South Korea’s Joint Chiefs of Staff.  The launch was also reported by officials in Japan. Defense Minister Nobuo Kishi said at an impromptu briefing the missiles were estimated to have flown roughly 300 kilometers, or about 186 miles, off North Korea’s eastern coast. In a statement, the U.S. Indo-Pacific Command said that while the launch did not pose an immediate threat to U.S. personnel or territory, or to its allies, it highlighted the 'destabilizing impact' of North Korea’s weapons programs. The launch follows tests on Jan. 5, 11 and 14.  Experts believe the activity is reprisal for new sanctions the Biden administration imposed last week over the North’s continued test launches. Earlier in the week, North Korean leader Kim Jong Un called for strengthening the country’s strategic military forces after observing the test of what state media said was a hypersonic missile. It was the first time since March 2020 that he had officially attended a missile test."
+    })
 
     return (
-        <BlogContext.Provider value={{ homePage, latest, latestArticle }} >
+        <BlogContext.Provider value={{ homePage, latest, latestArticle, top, first }} >
             {props.children}
         </BlogContext.Provider>
     )
